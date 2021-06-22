@@ -15,9 +15,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
 }
 
+html, 
 body {
-    font-size: 1.3rem;
+    font-size: 13px;
+    min-height: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    background-color: var(--light-grayish-blue);
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.card {
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.verified-graduate {
+    opacity: 0.5;
+}
+
+.review-paragraph {
+    opacity: 0.7;
+}
+
+.d-clifford,
+.j-walters,
+.p-abrams {
+    color: var(--white);
+}
+
+.j-harmon,
+.k-whittle {
+    background-color: var(--white);
+    color: var(--very-dark-blackish-blue);
+}
+
+.d-clifford {
+    background-color: var(--moderate-violet);
+}
+
+.j-walters {
+    background-color: var(--very-dark-grayish-blue);
+}
+
+.p-abrams {
+    background-color: var(--very-dark-blackish-blue);
 }
