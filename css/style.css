@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap');
 
 :root {
     /* Primary */
@@ -22,7 +22,7 @@ body {
     font-size: 13px;
     min-height: 100%;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     background-color: var(--light-grayish-blue);
 }
 
@@ -31,7 +31,8 @@ img {
 }
 
 .container {
-    width: 90%;
+    width: 88%;
+    max-width: 424px;
     margin: 0 auto;
     padding: 5rem 0;
 }
@@ -39,14 +40,13 @@ img {
 .card {
     border-radius: 8px;
     margin: 1.5rem 0;
+    padding: 2rem 2.5rem;
+    box-shadow: 3px 5px 15px -5px var(--light-gray);
+    position: relative;
 }
 
-.verified-graduate {
-    opacity: 0.5;
-}
-
-.review-paragraph {
-    opacity: 0.7;
+.k-whittle {
+    padding-right: 2.2rem;
 }
 
 .d-clifford,
@@ -63,6 +63,26 @@ img {
 
 .d-clifford {
     background-color: var(--moderate-violet);
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: top right 2rem;
+}
+
+.d-clifford .graduate-img {
+    border: 2px solid hsl(263, 68%, 70%);
+}
+
+.j-walters .graduate-img {
+    border: 2px solid var(--very-dark-grayish-blue);
+}
+
+.p-abrams .graduate-img {
+    border: 2px solid var(--moderate-violet);
+}
+
+.j-harmon .graduate-img,
+.k-whittle .graduate-img {
+    border: 2px solid var(--white);
 }
 
 .j-walters {
@@ -71,4 +91,55 @@ img {
 
 .p-abrams {
     background-color: var(--very-dark-blackish-blue);
+}
+
+.graduate {
+    display: flex;
+    align-items: center;
+}
+
+.graduate-img {
+    border-radius: 50%;
+    width: 2.5rem;
+}
+
+.graduate-info {
+    padding-left: 1.15rem;
+}
+
+.name {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.verified-graduate {
+    opacity: 0.5;
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.testimony {
+    font-size: 1.55rem;
+    font-weight: 600;
+    width: 99.5%;
+    padding: 1.2rem 0;
+}
+
+.d-clifford .review-paragraph {
+    width: 95%;
+}
+
+.review-paragraph {
+    opacity: 0.7;
+    font-size: 1.03rem;
+    font-weight: 400;
+    line-height: 1.4;
+    padding-bottom: 0.3rem;
+}
+
+.j-harmon .verified-graduate,
+.j-harmon .review-paragraph,
+.k-whittle .review-paragraph,
+.k-whittle .verified-graduate {
+    font-weight: 500;
 }
