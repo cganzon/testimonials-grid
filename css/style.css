@@ -59,7 +59,7 @@ img {
 .k-whittle {
     background-color: var(--white);
     color: var(--very-dark-grayish-blue);
-    box-shadow: 8px 8px 8px -8px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 20px -5px rgba(0, 0, 0, 0.2);
 }
 
 .d-clifford {
