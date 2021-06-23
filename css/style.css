@@ -41,7 +41,7 @@ img {
     border-radius: 8px;
     margin: 1.5rem 0;
     padding: 2rem 2.5rem;
-    box-shadow: 3px 5px 15px -5px var(--light-gray);
+    box-shadow: 8px 8px 10px -5px rgba(0, 0, 0, 0.3);
     position: relative;
 }
 
@@ -59,6 +59,7 @@ img {
 .k-whittle {
     background-color: var(--white);
     color: var(--very-dark-grayish-blue);
+    box-shadow: 8px 8px 8px -8px rgba(0, 0, 0, 0.5);
 }
 
 .d-clifford {
